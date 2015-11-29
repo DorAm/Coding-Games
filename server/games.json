@@ -2,8 +2,12 @@
   {
     "id": "minesweeper",
     "name": "The Ultimate Minesweeper",
-    "description": "The Classic Minesweeper built purely on HTML,  JS and CSS",
+    "description": "The Classic Minesweeper built purely on HTML, JS and CSS",
     "url": "minesweeper.html",
+    "rate": 3,
+    "raters": 18,
+    "publishedAt": 1448693940000,
+    "by": "Dor Amar",
     "picture": "../img/minesweeperLogo.jpg"
   },
   {
