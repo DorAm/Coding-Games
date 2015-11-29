@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #2E2E30; }
+
+header {
+  color: white;
+  float: left; }
+
+nav {
+  list-style: none; }
+
+main {
+  flex: 1; }
+
+/*# sourceMappingURL=style.css.map */
