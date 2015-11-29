@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 $headerColor: #000;
+=======
+$bgColor: #2E2E30;
+>>>>>>> 3323a2899b141d632dd9d74e0c158b952a16b9ff
 
 body {
   display: flex;
   flex-direction: column;
+  background-color: $bgColor;
 }
 
 header {
+<<<<<<< HEAD
   background-color: #000;
+=======
+  color: white;
+  float: left;
+>>>>>>> 3323a2899b141d632dd9d74e0c158b952a16b9ff
 }
 
 nav {
