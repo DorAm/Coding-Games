@@ -1,12 +1,14 @@
-$headerColor = ;
+$bgColor: #2E2E30;
 
 body {
   display: flex;
   flex-direction: column;
+  background-color: $bgColor;
 }
 
 header {
-  background-color:
+  color: white;
+  float: left;
 }
 
 nav {
