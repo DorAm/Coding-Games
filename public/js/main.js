@@ -1,5 +1,5 @@
 
-$.getJSON('../server/games.json', function(data){
+$.getJSON('../server/data/games/games.json', function(data){
     var htmlString = '<ul class="gamesList">';
     $.each(data, function(key, val){
         htmlString += '<li>';
