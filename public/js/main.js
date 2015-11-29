@@ -1,5 +1,5 @@
 
 
-$.getJSON('api/game', function (games) {
+$.getJSON('api/games', function (games) {
     console.log(games);
 });
