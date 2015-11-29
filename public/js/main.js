@@ -1,3 +1,4 @@
-$.getJSON('games.json', function(data){
+
+$.getJSON('../server/games.json', function(data){
     console.log(data);
 }); //get JSON
