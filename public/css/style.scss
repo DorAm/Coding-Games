@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-$headerColor: #000;
-=======
+
+
 $bgColor: #2E2E30;
->>>>>>> 3323a2899b141d632dd9d74e0c158b952a16b9ff
+
 
 body {
   display: flex;
@@ -10,17 +9,31 @@ body {
   background-color: $bgColor;
 }
 
+.spaceship {
+  float: left;
+ }
 header {
-<<<<<<< HEAD
-  background-color: #000;
-=======
+  background-color: #2E2E30;
   color: white;
   float: left;
->>>>>>> 3323a2899b141d632dd9d74e0c158b952a16b9ff
 }
 
-nav {
-  list-style: none;
+ul {
+  list-style-type: none;
+  margin: 45px;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 15px;
+  font-size: 25px;
+}
+li a {
+  color: #fff;
+  width: 60px;
+  text-decoration: none;
+
 }
 
 main {
