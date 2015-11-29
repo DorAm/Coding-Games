@@ -1,3 +1,5 @@
-/**
- * Created by Dor on 29/11/2015.
- */
+
+
+$.getJSON('api/game', function (games) {
+    console.log(games);
+});
