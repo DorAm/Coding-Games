@@ -1,7 +1,8 @@
-
-
 $bgColor: #2E2E30;
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   display: flex;
@@ -9,33 +10,46 @@ body {
   background-color: $bgColor;
 }
 
-.spaceship {
-  float: left;
- }
 header {
+  display: flex;
   background-color: #2E2E30;
   color: white;
   float: left;
+h1 {
+    margin: auto;
+    font-size: 55px;
+    color:#719DA6;
+  }
+}
+
+
+nav {
+  display: flex;
+
 }
 
 ul {
+  display: flex;
   list-style-type: none;
-  margin: 45px;
+  margin: 0;
   padding: 0;
+  width: 100%;
+   li {
+    display: inline;
+    margin: 15px;
+    font-size: 20px;
+  }
 }
 
-li {
-  display: inline;
-  margin: 15px;
-  font-size: 25px;
-}
 li a {
   color: #fff;
-  width: 60px;
   text-decoration: none;
-
 }
 
 main {
-  flex: 1;
+
+  h2 {
+    color: #fff;
+  }
 }
+
