@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/contactUs.css">
     <meta charset="UTF-8">
-    <title>>Contact Form</title>
+    <title>Contact Form</title>
 </head>
 <body>
 <div class="contact-page">
@@ -11,21 +11,21 @@
         <h1>Contact Us!</h1>
     </div>
 
-<form action="demo_form.asp" onsubmit="sendForm(this); return false" class="contact-form">
+<form onsubmit="sendForm(this); return false" class="contact-form">
 
     <label for="userName">Name: </label><br>
-    <input type="text" id="userName" name="userName"/><br>
+    <input type="text" id="userName" name="userName" required><br>
 
     <label for="userEmail">Email: </label><br>
-    <input type="text" id="userEmail" name="userEmail"/><br>
+    <input type="text" id="userEmail" name="userEmail" required><br>
 
     <label for="subject">Subject: </label><br>
-    <input type="text" id="subject" name="subject"/><br>
+    <input type="text" id="subject" name="subject" required><br>
 
     <label for="message">What's on your mind?</label><br>
-    <textarea name="message" id="message" cols="30" rows="5" placeholder="Your message goes here"></textarea>
+    <textarea name="message" id="message"  placeholder="Your message goes here" required></textarea><br>
 
-<button type="submit"></button>
+<button type="submit" value="submit">Submit</button>
 
 
 </form>

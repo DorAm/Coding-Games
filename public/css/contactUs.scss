@@ -1,10 +1,56 @@
+@import "main";
 
-input {
+
+input, label, textarea, button {
   margin: 5px;
 }
 
-label {
-  width: 100px;
-  float: left;
-  margin: 5px;
+input {
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 2.2em;
+
+}
+//label {
+//  //width: 100px;
+//  //float: left;
+//  margin: 5px;
+//  //margin: 15px 10px;
+//}
+//textarea {
+//  margin: 5px;
+//}
+//button {
+//
+//}
+
+.contact-form {
+  color: #E6185A;
+  padding: 15px;
+}
+
+form button {
+  background-color: #E6185A;
+  font-size: 1.2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 2px solid black;
+}
+
+#message {
+  width: 172px;
+  height: 100px;
+}
+@media (min-width: 768px) {
+
+
+}
+
+
+
+@media (min-width: 992px) {
+
 }
