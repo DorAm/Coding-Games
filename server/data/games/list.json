@@ -1,3 +1,4 @@
+
 [
   {
     "id": "mineSweeper",
@@ -8,7 +9,7 @@
     "raters": 0,
     "publishedAt": "29-11-2015",
     "by": "Dor Amar",
-    "picture": "../img/minesweeper.jpg"
+    "picture": "../public/img/mineSweeper.png"
   },
   {
     "id": "balloons",
