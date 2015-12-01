@@ -1,0 +1,41 @@
+
+body{
+  background-image: url("../img/marioBG_1024_600.png");
+}
+
+h1{
+  display: block;
+  margin: 0;
+  margin-left: 63px;
+  font-size: 4em;
+}
+
+header{
+  margin-left: 35%;
+}
+
+nav ul{
+  //font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  height: 2.4em;
+  text-align: center;
+}
+
+nav ul li{
+  float: left;
+}
+
+
+nav ul li a{
+  display: block;
+  width: 8em;
+  height: 1.25em;
+  line-height: 1.25em;
+  color: black;
+  font-size: 17px;
+  padding-top: 10px;
+  text-decoration: none;
+  width: 100px;
+}
