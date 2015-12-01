@@ -11,7 +11,7 @@ $.getJSON('api/games/', function(jsonItems) {
         var id = item.id;
 
         //create a game box
-        htmlString += '<div id="' + item.id + '" class="game">';
+        htmlString += '<div id="' + item.id + '" class="game" onclick="popUp(id)">';
             htmlString += '<h3>' + name + '</h3></br>';
             htmlString += '<img src="img/' + id + '.jpg">'
         htmlString += '</div>';
@@ -20,6 +20,13 @@ $.getJSON('api/games/', function(jsonItems) {
     $('.gamesArea').append(htmlString);
 
 });
+
+function popUp(id){
+
+    var myWindow = window.open("", "MsgWindow", "width=200, height=200");
+    myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
+
+}
 
 //    //var htmlString = '<ul class="gamesList">';
 //    var htmlString = '';
