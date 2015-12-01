@@ -8,7 +8,7 @@
     "rate": 0,
     "raters": 0,
     "publishedAt": "29-11-2015",
-    "by": "Dor Amar",
+    "by": "Dor Amar"
   },
   {
     "id": "balloons",
@@ -17,7 +17,7 @@
     "url": "balloons.html",
     "rate": 0,
     "raters": 0,
-    "publishedAt": "29-11-2015",
+    "publishedAt": "29-11-2015"
   },
   {
     "id": "guessTheNum",
@@ -26,7 +26,7 @@
     "url": "guessTheNum.html",
     "rate": 0,
     "raters": 0,
-    "publishedAt": "29-11-2015",
+    "publishedAt": "29-11-2015"
   },
   {
     "id": "simon",
@@ -35,7 +35,7 @@
     "url": "simon.html",
     "rate": 0,
     "raters": 0,
-    "publishedAt": "29-11-2015",
+    "publishedAt": "29-11-2015"
   },
   {
     "id": "cars",
@@ -44,6 +44,6 @@
     "url": "cars.html",
     "rate": 0,
     "raters": 0,
-    "publishedAt": "29-11-2015",
+    "publishedAt": "29-11-2015"
   }
 ]

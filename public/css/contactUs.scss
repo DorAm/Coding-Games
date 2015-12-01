@@ -1,6 +1,5 @@
 @import "main";
 
-
 input, label, textarea, button {
   margin: 5px;
 }
@@ -8,10 +7,12 @@ input, label, textarea, button {
 input {
   margin-bottom: 15px;
 }
+
 h1 {
   font-size: 2.2em;
 
 }
+
 //label {
 //  //width: 100px;
 //  //float: left;
@@ -26,6 +27,7 @@ h1 {
 //}
 
 .contact-form {
+  background: rgba(0, 255, 0, 0.2);
   color: #E6185A;
   padding: 15px;
 }
@@ -44,12 +46,10 @@ form button {
   width: 172px;
   height: 100px;
 }
+
 @media (min-width: 768px) {
 
-
 }
-
-
 
 @media (min-width: 992px) {
 
