@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Coding Games - Dor & Uzi</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/index.css"></head>
-    </head>
-    </head>
-    <body>
-        <header>
-            <h1>Coding Gamesssssss</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="games.html">Games</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contactUs.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-        </main>
 
-        <script src="lib/jQuery/jquery-2.1.4.min.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Games - Dor & Uzi</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+<header>
+    <button id="loginBtn" onclick="loginField()">Login</button>
+    <button id="logoutBtn" class="hide"  onclick="logout()">Logout</button>
+
+    <div class="login hide">
+        <div class="wrap">
+            <div class="avatar">
+                <img src="">
+            </div>
+            <form onsubmit="login(this); return false">
+            <input type="text" placeholder="username" required>
+            <div class="bar">
+                <i></i>
+            </div>
+            <input type="password" placeholder="password" required>
+            <button type="submit">Sign in</button>
+            </form>
+        </div>
+    </div>
+    <h1>Coding Gamesssssss</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+            <li id="adminPanel" class="hide"><a href="adminPanel.html">Admin Panel</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+</main>
+<script src="js/main.js"></script>
+<script src="lib/jQuery/jquery-2.1.4.min.js"></script>
+</body>
 </html>

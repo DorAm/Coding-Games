@@ -1,4 +1,4 @@
-@import "main";
+@import "mainStyle";
 
 input, label, textarea, button {
   margin: 5px;
@@ -6,34 +6,34 @@ input, label, textarea, button {
 
 input {
   margin-bottom: 15px;
+  border: 2px solid black;
+  height: 20px;
+  background: rgba(255, 0, 0, 0.7);
+  font-size: 15px;
 }
 
+header {
+  margin: 0;
+}
 h1 {
-  font-size: 2.2em;
+  font-size: 3.2em;
+  margin-top: 10px;
 
 }
 
-//label {
-//  //width: 100px;
-//  //float: left;
-//  margin: 5px;
-//  //margin: 15px 10px;
-//}
-//textarea {
-//  margin: 5px;
-//}
-//button {
-//
-//}
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+}
 
 .contact-form {
-  background: rgba(0, 255, 0, 0.2);
-  color: #E6185A;
+  //background: rgba(0, 255, 0, 0.4);
   padding: 15px;
+  margin-top: 30px;
 }
 
 form button {
-  background-color: #E6185A;
+  background: rgba(255, 0, 0, 0.7);
   font-size: 1.2em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -43,9 +43,13 @@ form button {
 }
 
 #message {
-  width: 172px;
+  width: 190px;
   height: 100px;
+  border: 2px solid black;
+  background: rgba(255, 0, 0, 0.7);
+  font-size: 1.2em;
 }
+
 
 @media (min-width: 768px) {
 

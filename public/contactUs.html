@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/contactUs.css">
     <meta charset="UTF-8">
     <title>Contact Form</title>
 </head>
 <body>
-<div class="contact-page">
-    <div class="form-head">
-        <h1>Contact Us!</h1>
-    </div>
 
-<form onsubmit="sendForm(this);  return false" class="contact-form">
+<header>
+    <h1>Contact Us</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<form onsubmit="sendForm(this);" class="contact-form">
 
     <label for="userName">Name: </label><br>
     <input type="text" id="userName" name="userName" required><br>
@@ -32,7 +42,6 @@
 
 
 
-</div>
     <script src="lib/jQuery/jquery-2.1.4.min.js"></script>
     <script src="js/contactUs.js"></script>
 </body>
