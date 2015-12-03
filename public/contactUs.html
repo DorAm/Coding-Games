@@ -21,7 +21,7 @@
 </header>
 
 
-<form onsubmit="sendForm(this);" class="contact-form">
+<form onsubmit="sendForm(this); return false" class="contact-form">
 
     <label for="userName">Name: </label><br>
     <input type="text" id="userName" name="userName" required><br>
@@ -34,7 +34,7 @@
 
     <label for="message">What's on your mind?</label><br>
     <textarea name="message" id="message"  placeholder="Your message goes here" required></textarea><br>
-
+<div class="confirmessage hide"><p>Your message has been sent successfully!</p></div>
 <button type="submit">Submit</button>
 
 

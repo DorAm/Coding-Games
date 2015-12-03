@@ -50,6 +50,18 @@ form button {
   font-size: 1.2em;
 }
 
+.confirmessage {
+  position: fixed;
+  bottom: 190px;
+  background: #aaaaaa;
+  color: #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+}
 
 @media (min-width: 768px) {
 
