@@ -46,10 +46,13 @@ nav ul li a {
 
 //login
 
-.login {
+.loginWindow {
   position: fixed;
   top: 0;
+
 }
+
+
 
 #logoutBtn {
   margin-left: 250px;
@@ -61,15 +64,17 @@ nav ul li a {
   margin: auto;
   margin-top: 10%;
 }
+
+
 .avatar {
-  width: 100%;
+  //width: 100%;
   margin: auto;
-  width: 65px;
   border-radius: 100px;
   height: 65px;
   background: #448ed3 ;
   position: relative;
   bottom: -15px;
+
 }
 .avatar img {
   width: 55px;

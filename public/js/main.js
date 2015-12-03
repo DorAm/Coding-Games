@@ -1,5 +1,5 @@
 function loginField() {
-    $('.login').removeClass('hide');
+    $('.loginWindow').removeClass('hide');
 }
 
 
@@ -8,9 +8,10 @@ function login(userDtl) {
 
         $('#adminPanel').removeClass('hide');
     }
-    $('.login').addClass('hide');
+    $('.loginWindow').addClass('hide');
     $('#loginBtn').addClass('hide');
     $('#logoutBtn').removeClass('hide');
+
 }
 
 function logout() {
