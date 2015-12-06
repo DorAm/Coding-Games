@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/adminPanel.css">
     <meta charset="UTF-8">
     <title>Admin Panel</title>
 </head>
 <body>
-<p>Hello Admin</p>
-<div id="userMessages">
 
-</div>
+<section id="contacts">
+<h1>Users Messages</h1>
+<button onclick="showMessage(); return false">Show Messages</button>
 
+<table id="userMessagesContainer">
+    <thead>
+    <tr><th>Name</th><th>email</th><th>Subject</th><th>Message</th><th>Action</th></tr>
+    </thead>
+    <tbody id="userMessages">
+
+    </tbody>
+</table>
+</section>
+
+<script src="lib/jQuery/jquery-2.1.4.min.js"></script>
+<script src="js/analytics.js"></script>
 </body>
 </html>

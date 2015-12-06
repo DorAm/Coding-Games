@@ -1,5 +1,10 @@
 function loginField() {
-    $('.loginWindow').removeClass('hide');
+    //$('.loginWindow').removeClass('hide');
+    $('.loginWindow').popup('show');
+    //setTimeout(function (){
+    //    $('.confirmessage').fadeOut(1000);
+    //}, 2000)
+
 }
 
 
@@ -8,7 +13,9 @@ function login(userDtl) {
 
         $('#adminPanel').removeClass('hide');
     }
-    $('.loginWindow').addClass('hide');
+    $('.loginWindow').popup('hide');
+    //$('.loginWindow').fadeOut(1000);
+    //$('.loginWindow').addClass('hide');
     $('#loginBtn').addClass('hide');
     $('#logoutBtn').removeClass('hide');
 

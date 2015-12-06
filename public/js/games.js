@@ -13,7 +13,7 @@ $.getJSON('api/games/', function(jsonItems) {
         //create a game box
         htmlString += '<div id="' + item.id + '" class="game" onclick="popUp(id)">';
             htmlString += '<h3>' + name + '</h3></br>';
-            htmlString += '<img src="img/' + id + '.jpg">'
+            htmlString += '<img src="img/' + id + '.jpg">';
         htmlString += '</div>';
     });
     //console.log(htmlString);

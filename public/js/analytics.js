@@ -1,16 +1,27 @@
+function showMessage() {
+    $.getJSON('api/contact', function (messages) {
+        var htmlMsg = messages.map(function (message) {
+            console.log(messages);
+            return '<tr>' +
+                '<td>' + message.name + '</td>' +
+                '<td>' + message.email + '</td>' +
+                '<td>' + message.subject + '</td>' +
+                '<td>' + message.message + '</td>' +
+                '<td>' + '<button class="deleteBtn" onclick="deleteMessage(' + message.id + ')">' +
+                'Delete</button>' + '</td>' + '</tr>';
 
 
-
-$.getJSON('data/monster', function (monsters) {
-    var htmlMonsters = monsters.map(function (monster) {
-        return '<li>'+
-            monster.name +
-            '<button class="btn" onclick="deleteMonster('+monster.id+')">' +
-            'Delete</button>' +
-            '<button class="btn" onclick="editMonster('+monster.id+')">' +
-            'Edit</button>' +
-
-            '</li>';
+        });
+        $('#userMessages').html(htmlMsg.join(''))
     });
-    $('#listMonsters').html(htmlMonsters.join(''))
-});
+}
+
+function deleteMessage(id) {
+    $.ajax({
+        url: 'api/contact/' + id,
+        type: 'DELETE',
+        success: function (result) {
+            showMessage();
+        }
+    });
+}
